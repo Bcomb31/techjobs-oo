@@ -106,4 +106,29 @@ public class JobForm {
     public void setPositionTypes(ArrayList<PositionType> positionTypes) {
         this.positionTypes = positionTypes;
     }
+
+    public String getLocation() {
+        return location;
+    }
+
+    public void setLocation(String location) {
+        this.location=location;
+    }
+
+    public String getPositionType() {
+
+        return positionType;
+    }
+
+    public void setPositionType(String positionType) {
+        this.positionType=positionType;
+    }
+
+    public String getCoreCompetency() {
+        return coreCompetency;
+    }
+
+    public void setCoreCompetency(String coreCompetency) {
+        this.coreCompetency=coreCompetency;
+    }
 }
